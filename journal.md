@@ -7,3 +7,4 @@ Week 4: modify objective task. Create matrix with data of earth models. Model tr
 Models that could be used: Linear regression (classic case y~N(wy,v)), GLMs, Neural Network (probably very few data plus not a favorite one).
 Week 5: cluster djf temperatures instead of just picking one month. Fetch true temperature data.
 Week 6: having some problems with real temperature datasets... they all represent temperature anomalies instead of absolute data.. First synthetic control objective function minimization code. 
+Week 7: Created two synthetic control calculation processes. For the first one matrix V is set with equal values for all donors (the importance of each past approximation of Y is equal). For the second one matrix V is calculated through cross validation. Also tested for grouped 5-year time series data. 
